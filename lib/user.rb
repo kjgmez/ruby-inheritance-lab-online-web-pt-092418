@@ -3,4 +3,5 @@ class User
   def initialize(fn, ln)
     @first_name = fn
     @last_name = ln
+  end
 end
