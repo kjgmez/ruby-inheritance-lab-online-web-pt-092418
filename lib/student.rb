@@ -4,6 +4,6 @@ class Student < User
     @knowledge = []
   end
   def learn(new)
-    sel.knowledge << new
+    self.knowledge << new
   end
 end
